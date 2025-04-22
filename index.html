@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>AGRI_LOG</header>
+    <nav>
+        <ul class="nav_links">
+            <li><a href="#Introduction">Home</a></li>
+            <li><a href="#Product">About</a></li>
+            <li><a href="#Benefits">Impact</a></li>
+        </ul>
+    </nav>
+    <section id ="Home">
+        <div class="Home_container">
+            <h2 id="intro-heading">Introduction</h2>
+        <p>AGRI_LOG is a web application designed to help farmers and agricultural professionals,
+            to manage their livestock operations more efficiently. <br>
+            The application provides livestock tracking.</p>
+            <button onclick="changeText()">Change Introduction Text</button>
+        </div>
+    </section>
+    <section id="Product">
+        <div id="product_container">
+            <h2>Product</h2>
+            <p>AGRI_LOG is a web application designed to help farmers and agricultural professionals,
+                to manage their livestock operations more efficiently. <br>
+                The application provides livestock tracking.</p>
+                <button onclick="changeStyle()">Highlight Product Section</button>
+        </div>   
+    </section>
+    <section id="Benefits">
+        <div id="benefits_container">
+            <h2>Benefits</h2>
+                <ul>
+                    <li>Keeps track of the farm inputs.</li>
+                    <li>Helps farmers to manage their livestock operations more efficiently.</li>
+                    <li>Provides a dashboard that displays an overview of their livestock operations.</li>
+                    <li>Improves on record keeping</li>
+                </ul>
+            <button onclick="AddElement()">Add Benefit</button>
+            <button onclick="RemoveElement()">Remove Benefit</button>
+        </div>
+    </section>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
